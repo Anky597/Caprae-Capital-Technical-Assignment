@@ -3,7 +3,6 @@ import logging
 import os
 import sys
 from flask import Flask, request, jsonify
-from flask_cors import CORS
 # Remove unused imports if any
 # from google.api_core.gapic_v1 import method, method_async
 
@@ -18,7 +17,12 @@ except ImportError as e:
 # Remove the old CustomJSONEncoder import if it exists
 # from utils.json_encoder import CustomJSONEncoder # Remove this line
 
+# Add this near the top of your app.py file
+from flask_cors import CORS
+
+# Add this after creating your Flask app
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # --- Use the Custom JSON Provider ---
 app.json = CustomJSONProvider(app)
