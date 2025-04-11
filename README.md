@@ -11,14 +11,14 @@ colorTo: green
 sdk: docker
 pinned: false
 ---
-
+```
 # AI Scraper
 
 ![GitHub stars](https://img.shields.io/github/stars/aniketnikam/ai-scraper?style=social)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Docker](https://img.shields.io/badge/docker-ready-brightgreen)
-
+```
 A robust web scraping and analysis tool built with Flask and powered by advanced NLP capabilities. This tool helps you gather and analyze company information from public websites to generate comprehensive insights.
 
 ## 🌟 Features
@@ -59,14 +59,13 @@ The application follows a client-server architecture:
 - **Frontend**: React TypeScript application with Material UI components
 - **Data Storage**: Local storage for persistence of analysis results
 
-```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │             │     │             │     │             │
 │   Frontend  │◄────┤   Backend   │◄────┤  Web Pages  │
 │  (React TS) │     │  (Flask)    │     │             │
 │             │     │             │     │             │
 └─────────────┘     └─────────────┘     └─────────────┘
-```
+
 
 ## 💻 Installation
 
