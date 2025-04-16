@@ -20,7 +20,7 @@ pinned: false
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Docker](https://img.shields.io/badge/docker-ready-brightgreen)
 ```
-A robust web scraping and analysis tool built with Flask and powered by advanced NLP capabilities. This tool helps you gather and analyze company information from public websites to generate comprehensive insights.
+A robust web scraping and analysis tool built with Flask and powered by advanced Gen AI capabilities. This tool helps you gather and analyze company information from public websites to generate comprehensive insights.
 
 ## 🌟 Features
 
